@@ -4,15 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9ea063-6742-41d9-a8b2-d7acb770a7b4" name="Changes" comment="">
+    <list default="true" id="fa9ea063-6742-41d9-a8b2-d7acb770a7b4" name="Changes" comment="opgave beskrivelse session 1 uden løsning">
+      <change afterPath="$PROJECT_DIR$/Session1/Test/TestListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/Test/TestListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/Test/TestStackMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/src/ADSLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/src/ADSListADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/src/ADSStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/src/ADSStackADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session2/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session3/src/Exercise1/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session3/src/Exercise1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session1/src/ADSLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/src/ADSLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,19 +41,99 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LMBKWoqym6HgesqwjigdClDzRI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/meret/Desktop/Softwareingeniør/2. semester/SDJ2/eksamen&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session2\Test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session2\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1.Main" />
+      <module name="Session3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListMethods (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Session2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestListMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Session1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestListMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListMethods.testAddAddsElmToEndOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Session1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestListMethods" />
+      <option name="METHOD_NAME" value="testAddAddsElmToEndOfList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStackMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Session2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStackMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestStackMethods" />
+        <item itemvalue="JUnit.TestListMethods (1)" />
+        <item itemvalue="JUnit.TestListMethods" />
+        <item itemvalue="JUnit.TestListMethods.testAddAddsElmToEndOfList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +142,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675671013424</updated>
-      <workItem from="1675671016149" duration="722000" />
+      <workItem from="1675671016149" duration="6914000" />
+      <workItem from="1675771087290" duration="733000" />
+      <workItem from="1675774379718" duration="689000" />
+      <workItem from="1676879169322" duration="4352000" />
+      <workItem from="1676891088289" duration="731000" />
+      <workItem from="1676896284291" duration="1891000" />
+      <workItem from="1676967049841" duration="4203000" />
     </task>
+    <task id="LOCAL-00001" summary="opgave beskrivelse session 1 uden løsning">
+      <created>1675677130352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675677130352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,5 +173,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="opgave beskrivelse session 1 uden løsning" />
+    <option name="LAST_COMMIT_MESSAGE" value="opgave beskrivelse session 1 uden løsning" />
   </component>
 </project>

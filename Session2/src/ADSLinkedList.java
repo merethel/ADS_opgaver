@@ -1,10 +1,12 @@
 public class ADSLinkedList<T> implements ADSListADT<T> {
 
-    private Node<T> first;
+    public Node<T> first;
+    public Node<T> last;
     private int size;
 
     public ADSLinkedList(){
         first = null;
+        last = null;
         size = 0;
     }
 
@@ -16,12 +18,14 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
         Node<T> newNode = new Node(elm, null);
         if(size == 0){
             first = newNode;
+            last = newNode;
         } else {
             Node<T> cur = first;
             while(cur.getNext() != null){
                 cur = cur.getNext();
             }
             cur.setNext(newNode);
+            last = newNode;
         }
         size++;
     }
@@ -34,7 +38,12 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
             return;
         }
         Node<T> newNode = new Node(elm, null);
-        if(size == 0) {
+        if(size == 0)
+        {
+            first = newNode;
+        }
+        if(index == 0) {
+            newNode.setNext(first);
             first = newNode;
         } else {
             Node<T> cur = first;
@@ -53,7 +62,10 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
     public boolean remove(T elm) {                    //O(n)
         Node<T> cur = first;
         Node<T> previous = null;
-
+        if (size == 0)
+        {
+            return false;
+        }
         while (cur.getElm() != elm){
             previous = cur;
             if (cur.getNext() == null)
@@ -62,6 +74,9 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
             }
             cur = cur.getNext();
         }
+        if(cur.getNext() == null)
+            last = cur;
+
         previous.setNext(cur.getNext());
         size--;
         return true;
@@ -118,6 +133,8 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
             cur = cur.getNext();
             i++;
         }
+        if(cur.getNext() == null)
+            last = cur;
         previous.setNext(cur.getNext());
 
         size--;
@@ -140,10 +157,33 @@ public class ADSLinkedList<T> implements ADSListADT<T> {
             cur = cur.getNext();
             i++;
         }
+        if(cur.getNext() == null)
+            last = cur;
         Node<T> newNode = new Node<>(elm,cur.getNext());
         previous.setNext(newNode);
 
         return cur.getElm();
 
     }
+
+    @Override
+    public Node<T> getFirst() {
+        return first;
+    }
+
+    @Override
+    public Node<T> getLast() {
+        return last;
+    }
+
+    @Override
+    public void setFirst(Node<T> node) {
+        first = node;
+    }
+
+    @Override
+    public void setLast(Node<T> node) {
+        last = node;
+    }
+
 }
