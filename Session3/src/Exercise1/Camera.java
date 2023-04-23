@@ -1,8 +1,5 @@
 package Exercise1;
 
-import java.util.HashMap;
-import java.util.Objects;
-
 public class Camera {
     String id;
     String model;
@@ -56,7 +53,7 @@ public class Camera {
             hashValue += 31^((model.length()-1)-1)*model.charAt(i);
         }
 
-        hashValue = hashValue % 324982;
+        hashValue = hashValue % 324982; //tilfældigt, bare for at gøre værdien lidt random
 
         return hashValue;
     }

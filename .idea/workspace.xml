@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9ea063-6742-41d9-a8b2-d7acb770a7b4" name="Changes" comment="opgave beskrivelse session 1 uden løsning">
-      <change afterPath="$PROJECT_DIR$/Session1/Test/TestListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/Test/TestListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/Test/TestStackMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/src/ADSLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/src/ADSListADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/src/ADSStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/src/ADSStackADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session2/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session3/src/Exercise1/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session3/src/Exercise1/Main.java" afterDir="false" />
+    <list default="true" id="fa9ea063-6742-41d9-a8b2-d7acb770a7b4" name="Changes" comment="Session2 og session3 opgaver">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4/src/Exercise1/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4/src/Exercise1/BinarySearchTreeADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4/src/Exercise1/BinaryTreeADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4/src/Exercise1/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session6/src/main/java/Exercise1/ArrayMinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session6/src/main/java/Exercise2/ArrayMinHeapT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session1/src/ADSLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Session1/src/ADSLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session3/src/Exercise1/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/Session3/src/Exercise1/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +57,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/meret/Desktop/Softwareingeniør/2. semester/SDJ2/eksamen&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/meret/OneDrive - ViaUC/4. semester/ADS/ADS_kode/ADS_opgaver&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -67,19 +65,41 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session4\src\Exercise1\linkedList" />
+      <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session4\src\Exercise1" />
       <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session2\Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\meret\Desktop\Softwareingeniør\4. semester\ADS\ADS_kode\ADS_opgaver\Session2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ArrayMinHeapT">
+    <configuration name="ArrayMinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1.ArrayMinHeap" />
+      <module name="Session6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayMinHeapT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise2.ArrayMinHeapT" />
+      <module name="Session6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise1.Main" />
       <module name="Session3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercise1.*" />
+          <option name="PATTERN" value="Exercise1.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,25 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Session1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestListMethods" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestListMethods.testAddAddsElmToEndOfList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Session1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestListMethods" />
-      <option name="METHOD_NAME" value="testAddAddsElmToEndOfList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestStackMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Session2" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayMinHeapT" />
+        <item itemvalue="Application.ArrayMinHeap" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestStackMethods" />
         <item itemvalue="JUnit.TestListMethods (1)" />
-        <item itemvalue="JUnit.TestListMethods" />
-        <item itemvalue="JUnit.TestListMethods.testAddAddsElmToEndOfList" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +150,14 @@
       <workItem from="1676891088289" duration="731000" />
       <workItem from="1676896284291" duration="1891000" />
       <workItem from="1676967049841" duration="4203000" />
+      <workItem from="1677483978865" duration="5162000" />
+      <workItem from="1677579942145" duration="602000" />
+      <workItem from="1678089483723" duration="6043000" />
+      <workItem from="1678697314193" duration="7512000" />
+      <workItem from="1679298902195" duration="1963000" />
+      <workItem from="1679313226528" duration="103000" />
+      <workItem from="1681301462837" duration="62000" />
+      <workItem from="1681720637550" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="opgave beskrivelse session 1 uden løsning">
       <created>1675677130352</created>
@@ -157,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675677130352</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Session2 og session3 opgaver">
+      <created>1677484227082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677484227083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="opgave beskrivelse session 1 uden løsning" />
-    <option name="LAST_COMMIT_MESSAGE" value="opgave beskrivelse session 1 uden løsning" />
+    <MESSAGE value="Session2 og session3 opgaver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session2 og session3 opgaver" />
   </component>
 </project>
